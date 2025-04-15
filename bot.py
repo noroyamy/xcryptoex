@@ -449,7 +449,7 @@ def start_command(message):
     if message.chat.id in ADMIN_IDS:
         # Убираем кнопку для перехода в админ-панель
         markup = main_menu()
-        bot.send_message(message.chat.id, "🏠 Добро пожаловать, администратор! Выберите действие:", reply_markup=markup)
+        bot.send_message(message.chat.id, "🏠 Добро пожаловать, Выберите действие:", reply_markup=markup)
     else:
         bot.send_message(message.chat.id, "🏠 Добро пожаловать! Выберите действие:", reply_markup=main_menu())
 
