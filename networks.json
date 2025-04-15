@@ -1,0 +1,8 @@
+{
+  "BTC/USDT": ["Bitcoin", "Lightning", "ERC20", "BEP20", "TRC20"],
+  "ETH/USDT": ["ERC20", "BEP20", "TRC20"],
+  "SOL/USDT": ["ERC20", "BEP20", "TRC20"],
+  "BNB/USDT": ["ERC20", "BEP20", "TRC20"],
+  "XRP/USDT": ["ERC20", "BEP20", "TRC20"],
+  "ADA/USDT": ["ERC20", "BEP20", "TRC20"]
+}
